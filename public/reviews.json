@@ -1,0 +1,73 @@
+[
+    {
+      "_id": "1",
+      "name": "John Doe",
+      "details": "Excellent product! Really exceeded my expectations.",
+      "rating": 4.8,
+      "image": "https://i.ibb.co.com/tpxZC1yH/review1.jpg"
+    },
+    {
+      "_id": "2",
+      "name": "Jane Smith",
+      "details": "Very satisfied with the quality and performance.",
+      "rating": 4.5,
+      "image": "https://i.ibb.co.com/JjBKjTcJ/review2.jpg"
+    },
+    {
+      "_id": "3",
+      "name": "Michael Brown",
+      "details": "Good value for money. Would recommend to others.",
+      "rating": 4.2,
+      "image": "https://i.ibb.co.com/60Yhnp7M/review3.jpg"
+    },
+    {
+      "_id": "4",
+      "name": "Emily Johnson",
+      "details": "The product works as described. Happy with my purchase.",
+      "rating": 4.6,
+      "image": "https://i.ibb.co.com/99m0jfpr/review4.jpg"
+    },
+    {
+      "_id": "5",
+      "name": "Chris Lee",
+      "details": "A solid choice among competitors. Highly recommended!",
+      "rating": 4.7,
+      "image": "https://i.ibb.co.com/gM871m17/review5.jpg"
+    },
+    {
+      "_id": "6",
+      "name": "Olivia Martin",
+      "details": "Impressive build quality and performance.",
+      "rating": 4.9,
+      "image": "https://example.com/images/review6.jpg"
+    },
+    {
+      "_id": "7",
+      "name": "Daniel Wilson",
+      "details": "The product delivered as promised, with minimal issues.",
+      "rating": 4.3,
+      "image": "https://example.com/images/review7.jpg"
+    },
+    {
+      "_id": "8",
+      "name": "Sophia Davis",
+      "details": "User-friendly and efficient. Great customer support too!",
+      "rating": 4.8,
+      "image": "https://example.com/images/review8.jpg"
+    },
+    {
+      "_id": "9",
+      "name": "William Garcia",
+      "details": "Really happy with my purchase. Would buy again!",
+      "rating": 4.6,
+      "image": "https://example.com/images/review9.jpg"
+    },
+    {
+      "_id": "10",
+      "name": "Ava Martinez",
+      "details": "Top-notch quality and performance. A must-have!",
+      "rating": 4.9,
+      "image": "https://example.com/images/review10.jpg"
+    }
+  ]
+  

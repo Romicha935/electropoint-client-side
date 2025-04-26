@@ -1,0 +1,113 @@
+[
+    {
+      "_id": "1",
+      "name": "Apple iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "color": "Titanium Gray",
+      "rating": 4.8,
+      "price": 999,
+      "details": "The latest iPhone with A17 Bionic chip, 48MP camera, and ProMotion display.",
+      "image": "https://i.ibb.co.com/vCxNJbkB/pou-Iphon15.jpg"
+    },
+ {
+      "_id": "2",
+      "name": "Samsung Galaxy S23 Ultra",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "color": "Phantom Black",
+      "rating": 4.7,
+      "price": 1199,
+      "details": "A powerful Android smartphone with Snapdragon 8 Gen 2, 200MP camera, and S-Pen support.",
+      "image": "https://i.ibb.co.com/fGSV7HYH/Popu-samsung-galaxy.png"
+    },
+    {
+      "_id": "3",
+      "name": "MacBook Air M2",
+      "brand": "Apple",
+      "category": "Laptops",
+      "color": "Midnight",
+      "rating": 4.9,
+      "price": 1199,
+      "details": "Ultra-thin MacBook with M2 chip, Liquid Retina display, and all-day battery life.",
+      "image": "https://i.ibb.co.com/TB66gjHD/Popu-m2-macbook-air-midnight-2.jpg"
+    },
+    {
+      "_id": "4",
+      "name": "Dell XPS 15",
+      "brand": "Dell",
+      "category": "Laptops",
+      "color": "Silver",
+      "rating": 4.6,
+      "price": 1499,
+      "details": "High-performance laptop with Intel Core i7, 16GB RAM, and 4K OLED display.",
+      "image": "https://i.ibb.co.com/pjZFgwPS/Popu-Dell-XPS-15.jpg"
+    },
+    {
+      "_id": "5",
+      "name": "DJI Mini 3 Pro Drone",
+      "brand": "DJI",
+      "category": "Drones",
+      "color": "Gray",
+      "rating": 4.8,
+      "price": 759,
+      "details": "A compact drone with 4K HDR video, obstacle avoidance, and 34-minute flight time.",
+      "image": "https://i.ibb.co.com/FLQCXTP8/Popu-DJI-MINI-SE-Drone-Quadcopter-1.jpg"
+    },
+    {
+      "_id": "6",
+      "name": "Sony WH-1000XM5 Headphones",
+      "brand": "Sony",
+      "category": "Audio",
+      "color": "Black",
+      "rating": 4.7,
+      "price": 399,
+      "details": "Premium noise-canceling wireless headphones with LDAC and 30-hour battery life.",
+      "image": "https://i.ibb.co.com/2BxgB0f/popu-headphone.jpg"
+    },
+    {
+      "_id": "7",
+      "name": "Samsung 55\" QLED Smart TV",
+      "brand": "Samsung",
+      "category": "Television",
+      "color": "Black",
+      "rating": 4.9,
+      "price": 999,
+      "details": "4K UHD QLED Smart TV with Quantum HDR, 120Hz refresh rate, and voice control.",
+      "image": "https://i.ibb.co.com/MyvGwRx6/popu-telivision.jpg"
+    },
+    {
+      "_id": "8",
+      "name": "Apple Watch Series 9",
+      "brand": "Apple",
+      "category": "Smartwatches",
+      "color": "Starlight",
+      "rating": 4.8,
+      "price": 499,
+      "details": "Advanced smartwatch with Always-On Retina display, ECG, and fitness tracking.",
+      "image": "   https://i.ibb.co.com/GQR8KRN6/popu-apple-watch.jpg"
+    },
+    {
+      "_id": "9",
+      "name": "Canon EOS R5 Camera",
+      "brand": "Canon",
+      "category": "Cameras",
+      "color": "Black",
+      "rating": 4.9,
+      "price": 3899,
+      "details": "Professional mirrorless camera with 8K video recording and Dual Pixel AF.",
+      "image": "https://i.ibb.co.com/xSJJcmxK/popu-caera.jpg"
+    },
+    {
+      "_id": "10",
+      "name": "Logitech MX Master 3 Mouse",
+      "brand": "Logitech",
+      "category": "Accessories",
+      "color": "Graphite",
+      "rating": 4.8,
+      "price": 99,
+      "details": "Ergonomic wireless mouse with precision scroll wheel and USB-C charging.",
+      "image": "https://i.ibb.co.com/XfW2n7Gd/popu-mouse.jpg"
+    }
+  ]
+  
