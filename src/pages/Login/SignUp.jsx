@@ -21,17 +21,17 @@ const SignUp = () => {
             const user = result.user;
             console.log(user);
 
-            fetch('http://localhost:5000/users',{
+            fetch('https://electropoint-server-side.vercel.app/users',{
               method: 'POST' ,
               headers:{
                 'content-type': 'application/json'
               },
               body: JSON.stringify({name:data.name,email:data.email}),
-              // credentials: 'include'
+              credentials: 'include'
             })
 
             .then(()=> {
-              fetch('http://localhost:5000/jwt',{
+              fetch('https://electropoint-server-side.vercel.app/jwt',{
                 method:'POST',
                 headers:{
                   'content-type': 'application/json'

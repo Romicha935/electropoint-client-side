@@ -22,11 +22,12 @@ const Cart = () => {
       confirmButtonText: "Yes, delete it!"
     }).then((result) => {
       if (result.isConfirmed) {
-         fetch(`http://localhost:5000/carts/${id}`, {
+         fetch(`https://electropoint-server-side.vercel.app/carts/${id}`, {
           method:'DELETE',
           headers:{
-            authorization : `Bearer ${localStorage.getItem('access-token')}`
-          }
+            'content-type': 'application/json'
+          },
+          credentials:'include'
          })
          .then(res=> res.json())
          .then(data=> {
@@ -58,7 +59,7 @@ const Cart = () => {
          status: 'Pending',
          totalPrice:totalPrice
     } 
-    fetch('http://localhost:5000/orders',{
+    fetch('https://electropoint-server-side.vercel.app/orders',{
       method: 'POST',
       headers:{
         'content-type': 'application/json'
@@ -72,11 +73,12 @@ const Cart = () => {
       if(data.insertedId){
         console.log(user?.emai);
         
-        fetch(`http://localhost:5000/carts/clear/${user?.email}`,{
+        fetch(`https://electropoint-server-side.vercel.app/carts/clear/${user?.email}`,{
             method: 'DELETE',
             headers: {
               'content-type': 'application/json'
-            }
+            },
+            credentials:'include'
           })
           .then(res=> res.json())
           .then(delRes=> {

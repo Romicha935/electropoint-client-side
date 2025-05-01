@@ -18,7 +18,7 @@ const GoogleLogin = () => {
               name: LoggedUser.displayName,
               email: LoggedUser.email
             }
-            fetch('http://localhost:5000/users',{
+            fetch('https://electropoint-server-side.vercel.app/users',{
               method: 'POST',
               headers: {
                 'content-type': 'application/json'
@@ -27,7 +27,7 @@ const GoogleLogin = () => {
             })
             .then(() => {
               // ✅ Step 2: Get JWT token from server
-              return fetch('http://localhost:5000/jwt', {
+              return fetch('https://electropoint-server-side.vercel.app/jwt', {
                 method: 'POST',
                 headers: {
                   'content-type': 'application/json'

@@ -9,11 +9,13 @@ const useCart = () => {
         queryKey:['cart',user?.email],
         queryFn:async ()=> {
           
-            const res = await fetch(`http://localhost:5000/carts?email=${user.email}`,{
+            const res = await fetch(`https://electropoint-server-side.vercel.app/carts?email=${user.email}`,{
                 credentials:'include'
              
             })
             const data = await res.json()
+            console.log(data);
+            
             return data
         }
     })

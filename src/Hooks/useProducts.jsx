@@ -13,7 +13,7 @@ const useProducts = () => {
         const {data: products=[], isLoading: productsLoading, refetch} = useQuery({
             queryKey: ['products'],
             queryFn: async()=>{
-             const res = await fetch('http://localhost:5000/products',{
+             const res = await fetch('https://electropoint-server-side.vercel.app/products',{
                 method: 'GET',
                  
                   credentials:'include'

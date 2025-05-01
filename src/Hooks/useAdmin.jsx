@@ -11,7 +11,7 @@ const useAdmin = () => {
         queryKey:['isAdmin', user?.email],
         queryFn: async()=> {
                
-                const res = await fetch(`http://localhost:5000/users/admin/${user?.email}`,{
+                const res = await fetch(`https://electropoint-server-side.vercel.app/users/admin/${user?.email}`,{
                   method:'GET',
                  
                  credentials:'include'

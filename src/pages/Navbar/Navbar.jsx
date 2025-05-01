@@ -7,6 +7,7 @@ import Swal from 'sweetalert2'
 import useCart from '../../Hooks/useCart'
 import useAdmin from '../../Hooks/useAdmin'
 import useAuth from '../../Hooks/useAuth'
+import logo from '../../assets/allImg/logo.jpeg'
 
 const Navbar = () => {
   
@@ -14,7 +15,7 @@ const Navbar = () => {
   const {user,logOut} = useContext(AuthContext)
   const [isAdmin,isAdminLoading] = useAdmin()
   const navLinks = <>
-    <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive? 'text-orange-500 font-bold underline':'text-black'}>Home</NavLink></li>
+    <li className='text-lg'><NavLink to='/' className={({isActive})=> isActive? 'text-orange-500 font-bold underline':'text-black mx-2'}>Home</NavLink></li>
     <li className='text-lg '><NavLink to='/products' className={({isActive})=> isActive? 'text-orange-500 font-bold underline':'text-black'}>All Products</NavLink></li>
     <li className='text-lg'><NavLink to='/contact' className={({isActive})=> isActive? 'text-orange-500 font-bold p-2 underline':'text-black'}>Contact Us</NavLink></li>
    
@@ -26,8 +27,8 @@ const Navbar = () => {
     //   credentials: 'include'
     // });
     
-    logOut()
-    .then(()=> {
+    
+   
       Swal.fire({
         title: "Are you sure?",
         text: "You won't be able to revert this!",
@@ -38,6 +39,7 @@ const Navbar = () => {
         confirmButtonText: "Yes, LogOut!"
       }).then((result) => {
         if (result.isConfirmed) {
+          logOut()
           Swal.fire({
             title: "LogOut",
             text: "User Logout successfull.",
@@ -45,14 +47,14 @@ const Navbar = () => {
           });
         }
       });
-    })
+  
   }
 
 
   return (
-    <div className='mb-10 fixed top-0 right-0 left-0 z-50 px-8'>
+    <div className='mb-10 fixed top-0 right-0 left-0 z-50 '>
         <div className="navbar bg-base-100 shadow-sm">
-  <div className="navbar-start">
+  <div className="navbar-start px-2">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
@@ -66,10 +68,14 @@ const Navbar = () => {
          </li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">ElectroPoint</a>
+    <div className='flex gap-4 justify-center items-center'>
+      <img  src={logo} className='w-10 h-10' alt="" />
+      <a className=" text-2xl font-bold mr-4">Electro<span className='text-orange-500'>Point</span></a>
+    </div>
+  
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-2">
       {navLinks}
     </ul>
     {/*serch bar */}
