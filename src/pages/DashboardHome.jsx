@@ -8,7 +8,7 @@ const DashboardHome = () => {
 
         {/* summary cards */}
         <div className='grid grid-cols-1 sm:grid-cols-2  gap-6'>
-            <div className='bg-gray-100 w-80 rounded-xl w-auto shadow p-6 text-center'>
+            <div className='bg-gray-100 w-80 rounded-xl shadow p-6 text-center'>
                 <FaBox className='text-4xl text-orange-500 mx-auto mb-2 text-center'/>
                 <p className='text-xl font-semibold'>120</p>
                 <p className='text-gray-600'>Total Products</p>
